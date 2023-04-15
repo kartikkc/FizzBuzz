@@ -3,6 +3,7 @@
     src: url(../Fonts/Summerbee-vmgjD.ttf);
 }
 
+/* Html Elements */
 
 body {
 
@@ -25,9 +26,51 @@ h1:hover {
     color: #61598d !important;
 }
 
-i {
-    color: rgb(255, 74, 74);
+h2 {
+    text-align: center;
+    font-size: 6rem;
+    color: #B2A4FF;
 }
+
+h2:hover {
+    color: #61598d;
+}
+
+p {
+    font-family: 'Lobster';
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #B2A4FF;
+}
+
+p:hover {
+    color: #61598d;
+}
+
+a {
+    text-decoration: none;
+    color: #B2A4FF;
+}
+
+a:hover {
+    color: #61598d;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+/* Html elements ends */
+
 
 /* Title Section */
 
@@ -66,6 +109,53 @@ i {
 /* Title section ends */
 
 
+/* Instructions section */
+
+#instructions {
+    /* text-align: center; */
+    padding: 2% 10%;
+}
+
+.heading {
+    font-family: 'SummerBee';
+    /* font-size: 6rem !important; */
+}
+
+.enjoy {
+    font-family: 'Lobster';
+    font-size:1.5rem;
+    line-height: 1.5;
+    color:#B2A4FF;
+    text-align: center;
+}
+
+.gamepad {
+    color: #B2A4FF;
+}
+.gamepad:hover{
+    color:#61598d;
+}
+
+/* Instructions section ends */
+
+/* Result Section */
+
+#result {
+    text-align: center;
+    padding: 2% 10%;
+    font-family: 'SummerBee';
+    font-size: 6rem;
+    color: #62CDFF;
+}
+
+#main-result:hover {
+    color: #61598d;
+}
+
+
+/* Result section ends */
+
+
 
 /* Input Section */
 
@@ -79,7 +169,34 @@ i {
 }
 
 .custom-btn {
+    font-family: 'SummerBee';
     padding-top: 2%;
+}
+
+.btn {
+    font-size: 2rem;
+}
+
+.btn:hover {
+    background-color: #683F35;
+}
+
+.input-text {
+    font-family: 'SummerBee';
+    border-radius: 20px;
+    background-color: #FDF7C3;
+    font-size: 2rem !important;
+    padding-left: 15%;
+}
+
+.input {
+    padding: 0 25% !important;
+}
+
+#number {
+    font-family: 'SummerBee';
+    font-size: 2rem;
+    background-color: #FDF7C3;
 }
 
 /* Input section ends */
@@ -88,17 +205,6 @@ i {
 /* Footer section starts */
 
 #footer {
-    /* border-radius: 25px;
-    margin-left: 25%;
-    margin-bottom: 2%;
-    width: 50%;
-    height: 10rem;
-    text-align: center;
-    padding: 3% 10%;
-    background-color: #FFDEB4;
-    font-family: 'SummerBee';
-    font-size: 1.5rem;
-    color:#B2A4FF; */
     border-radius: 80px;
     margin-left: 36%;
     margin-bottom: 2%;
@@ -110,6 +216,104 @@ i {
     font-family: 'SummerBee';
     font-size: 1.5rem;
     color: #B2A4FF;
+    /* color: #62CDFF; */
+}
+
+.heart {
+    color: rgb(255, 74, 74);
 }
 
 /* Footer sections ends */
+
+
+
+
+/* Media Query */
+
+@media (max-width:400px) {
+
+    /* Html Elements */
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    img {
+        width: 90% !important;
+    }
+
+    /* Html elements ends */
+
+    /* Input section */
+    #input {
+        text-align: center;
+    }
+
+    .input-text {
+        padding-bottom: 5%;
+        margin-left: -6%;
+    }
+
+    .custom-btn {
+        padding-top: 10%;
+    }
+
+    /* Input section ends */
+
+
+    /* Footer section */
+
+    #footer {
+        height: 4rem;
+        padding: 3% 1%;
+        margin: 15% 21%;
+        width: 60%;
+    }
+
+
+    /* Footer section ends */
+}
+
+@media (max-width:1710px) {
+
+    /* Html Elements */
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    img {
+        width: 95% !important;
+    }
+
+    /* Html elements ends */
+
+    /* Input section */
+    #input {
+        text-align: center;
+    }
+
+    .input-text {
+        padding-bottom: 5%;
+        margin-left: -6%;
+    }
+
+    .custom-btn {
+        padding-top: 10%;
+    }
+
+    /* Input section ends */
+
+    /* Footer section */
+
+    #footer {
+        height: 4rem;
+        padding: 2% 1%;
+        margin: 15% 21%;
+        width: 60%;
+    }
+
+    /* Footer section ends */
+}
+
+/* Media Query ends */
