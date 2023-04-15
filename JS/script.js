@@ -8,7 +8,7 @@ function Okay() {
     console.log(y);
 
     array.push(y);
-    if (y == 15012002 || y ==10102002 ) {
+    if (y == 15012002 || y ==10092002 ) {
         window.alert("You are my Homie!!❤️‍🔥\nStay same Nigga?🥺👻")
         console.log("You are my Homie!!❤️‍🔥\nStay same Nigga?🥺👻");
     }
