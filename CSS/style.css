@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "SummerBee";
+    src: url(../Fonts/Summerbee-vmgjD.ttf);
+}
+
+
+body {
+
+    background-color: #FDF7C3;
+
+}
+
+img {
+    width: 50%;
+    border-radius: 50px;
+
+}
+
+h1 {
+    font-size: 10rem;
+    line-height: 1.5;
+}
+
+h1:hover {
+    color: #61598d !important;
+}
+
+i {
+    color: rgb(255, 74, 74);
+}
+
+/* Title Section */
+
+
+#title {
+    text-align: center;
+    font-family: 'SummerBee';
+    color: #B2A4FF;
+    padding: 2% 10%;
+}
+
+.main-title {
+    font-family: 'Lobster';
+    color: #B2A4FF;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.main-title:hover {
+    color: #61598d !important;
+}
+
+.nav-item {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+.nav-link {
+    color: #B2A4FF;
+}
+
+.nav-link:hover {
+    color: #61598d;
+}
+
+/* Title section ends */
+
+
+
+/* Input Section */
+
+#input {
+    text-align: center;
+    padding: 2% 10%;
+}
+
+.input-space {
+    padding: 0 30%;
+}
+
+.custom-btn {
+    padding-top: 2%;
+}
+
+/* Input section ends */
+
+
+/* Footer section starts */
+
+#footer {
+    /* border-radius: 25px;
+    margin-left: 25%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 10rem;
+    text-align: center;
+    padding: 3% 10%;
+    background-color: #FFDEB4;
+    font-family: 'SummerBee';
+    font-size: 1.5rem;
+    color:#B2A4FF; */
+    border-radius: 80px;
+    margin-left: 36%;
+    margin-bottom: 2%;
+    width: 29%;
+    height: 4rem;
+    text-align: center;
+    padding: 1% 10%;
+    background-color: #FFDEB4;
+    font-family: 'SummerBee';
+    font-size: 1.5rem;
+    color: #B2A4FF;
+}
+
+/* Footer sections ends */
