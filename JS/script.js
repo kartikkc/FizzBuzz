@@ -9,8 +9,12 @@ function Okay() {
 
     array.push(y);
     if (y == 15012002 || y ==10092002 ) {
-        window.alert("You are my Homie!!❤️‍🔥\nStay same Nigga?🥺👻")
-        console.log("You are my Homie!!❤️‍🔥\nStay same Nigga?🥺👻");
+        window.alert("You are my Homie!!❤️‍🔥\nStay same Nigga!🥺👻")
+        console.log("You are my Homie!!❤️‍🔥\nStay same Nigga!🥺👻");
+    }
+    if( y = 18092002){
+        window.alert("I am obsessed with you❤️‍🔥\nCan We meet again?🥺👻")
+        console.log("I am obsessed with you❤️‍🔥\nCan We meet again?🥺👻");
     }
     else {
         if (y % 3 == 0) {
